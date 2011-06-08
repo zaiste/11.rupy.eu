@@ -1,0 +1,326 @@
+/* @override 
+	http://true.pl/projekty/rupy/style.css
+	http://projekty.true.pl/rupy/style.css
+*/
+
+body {
+	background: #c4ad84 url(background.jpg) center bottom;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "facitweb-1","facitweb-2",sans-serif;
+	width: 100%;
+	color: #5a3812;
+	min-width: 1200px;
+}
+
+a:link,a:visited {
+	color: #094e72;
+}
+
+a:hover,a:visited:hover {
+	color: #003450;
+}
+
+hr {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	border: none;
+	color: transparent;
+	background: transparent none;
+}
+
+
+.slide {
+	width: 100%;
+	background-color: transparent;
+}
+
+.slide > .inside {
+	padding: 50px;
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#home {
+	background: url(splash.jpg) no-repeat center top;
+	background: url(splash.png) no-repeat center top;
+}
+#home.slide > .inside {
+	height: 400px;
+}
+#home #date {
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	right: 56px;
+	top: 240px;
+	width: 700px;
+	font-size: 30px;
+	text-align: right;
+	color: #3e641a;
+}
+#home #sponsor {
+	position: absolute;
+	width: 190px;
+	right: 105px;
+	top: 70px;
+	background: #fff;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #8f0000;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+#home #register {
+	position: absolute;
+	width: 190px;
+	right: 105px;
+	top: 120px;
+	background: #aa9067;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #806543;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+#about #twitter {
+	width: 210px;
+	height: 300px;
+	padding: 50px;
+	float: left;
+	color: #fff;
+	margin-right: 50px;
+}
+#about #twitter a,
+#about #twitter a:hover {
+	color: #fff;
+}
+#about #twitter h2 {
+	margin: 0;
+}
+#about #twitter ul {
+	margin: 10px 0 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px dashed #3f758c;
+}
+#about #twitter ul li {
+	padding: 10px 0;
+	border-bottom: 1px dashed #3f758c;
+}
+#about #twitter ul li p {
+	margin: 0;
+}
+
+#about {
+	background: url(about.png) no-repeat center top	;
+}
+#about .inside {
+	height: 530px;
+}
+#about h1 {
+}
+
+#about .left.column {
+	width: 400px;
+}
+#about .right.column {
+	float: right;
+	width: 300px;
+}
+#speakers {
+	background: url(speakers.png) no-repeat center 0;
+}
+#speakers h1 {
+	margin-bottom: 60px;
+	color: #fff;
+}
+#speakers big {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 100px;
+	margin-top: -50px;
+}
+#speakers .speaker {
+	margin-bottom: 50px;
+}
+#speakers .left {
+	width: 450px;
+	float: left;
+	margin-right: 200px;
+	text-align: right;
+}
+#speakers .right {
+	width: 450px;
+	float: left;
+}
+#speakers .speaker.right {
+}
+#speakers .speaker h2 {
+	color: #394a08;
+	font-size: 24px;
+	margin: 0 0 10px;
+	letter-spacing: -1px;
+	text-shadow: #eadcc6 0 1px 0;
+}
+#speakers .speaker h3 {
+	color: #394a08;
+	text-shadow: #eadcc6 0 1px 0;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 0 20px;
+	list-style-position: inside;
+}
+#speakers .speaker .img {
+	width: 150px;
+	height: 150px;
+	border: 5px solid #fff;
+	overflow: hidden;
+}
+#speakers .left .speaker .img {
+	float: right;
+	margin-left: 20px;
+}
+#speakers .right .speaker .img {
+	float: left;
+	margin-right: 20px;
+}
+#speakers .speaker .web {
+	margin-bottom: 10px;
+}
+#speakers .speaker .web a {
+	background: #fff;
+	padding: 2px 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #06567f;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#speakers .speaker .twitter a {
+	text-decoration: none;
+	color: #06567f;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 11px;
+	display: inline-block;
+	padding-right: 12px;
+	background: url(tweet_1_2.png) no-repeat top right;
+}
+#speakers .speaker .twitter a span {
+	display: inline-block;
+	background: url(tweet_1_1.png) no-repeat top left;
+	line-height: 20px;
+	padding-left: 45px;
+	padding-bottom: 20px;
+}
+
+#speakers .left .speaker .twitter a {
+	padding-right: 0;
+	padding-left: 12px;
+	background: url(tweet_2_1.png) no-repeat top left;
+}
+#speakers .left .speaker .twitter a span {
+	background: url(tweet_2_2.png) no-repeat top right;
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 800;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+}
+
+big {
+	display: block;
+}
+
+.column {
+	float: left;
+}
+
+#menu{
+	background: rgba(255,255,255,0.9);
+}
+#menu > .inside {
+	padding: 0 50px;
+	width: 1100px;
+	margin: 0 auto;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px;
+	text-align: center;
+}
+#menu li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+#menu li a {
+	display: block;
+	padding: 20px 20px;
+	font-size: 24px;
+	color: #094e72;
+	text-decoration: none;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#footer {
+	background: url(footer.png) no-repeat center top;
+	padding-bottom: 50px;
+}
+
+
+#footer #top {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footer #true,
+#footer #true2 {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: #796847;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+	margin-top: 200px;
+}
+#footer #true2 {
+	margin-top: 100px;
+}
+
+

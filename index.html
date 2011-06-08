@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
+<head>
+    <title>RUPY</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=980" /> 	
+	<link rel="stylesheet" rev="stylesheet" href="style.css" type="text/css" />
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.tweetable.min.js"></script>
+
+	<script type="text/javascript" src="http://use.typekit.com/dbh6cbs.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<meta name="viewport" content="width=1200" /> 		
+    
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#tweets').tweetable({username: 'rupy'});
+      });
+      
+      $("#sponsors ul li").hover(function() { //On hover...
+
+      		var thumbOver = $(this).find("img").attr("src"); //Get image url and assign it to 'thumbOver'
+
+      		//Set a background image(thumbOver) on the <a> tag - Set position to bottom
+      		$(this).find("a.thumb").css({'background' : 'url(' + thumbOver + ') no-repeat center bottom'});
+
+      		//Animate the image to 0 opacity (fade it out)
+      		$(this).find("span").stop().fadeTo('normal', 0 , function() {
+      			$(this).hide() //Hide the image after fade
+      		});
+      	} , function() { //on hover out...
+      		//Fade the image to full opacity 
+      		$(this).find("span").stop().fadeTo('normal', 1).show();
+      	});    
+    </script>   
+</head> 
+<body id="top">
+<div id="outside">
+	
+	<div id="home" class="slide">
+	<div class="inside">
+
+		<div id="date">14th-16th October, Poznan POLAND</div>
+		
+		<a href="http://cl.ly/1y2c0J1Z3D443S1x400Y" id="sponsor">Sponsor us</a>
+		<a href="http://goo.gl/kOYjf" id="cfp">Submit a talk</a>
+		<a href="#" id="register">Register now (soon)</a>
+		
+	</div>
+	</div>
+	
+	<div id="menu">
+	<div class="inside">
+		
+		<ul>		
+			<li id="menu_about"><a href="#about">About</a></li>
+			<li id="menu_speakers"><a href="#speakers">Speakers</a></li>
+			<li id="menu_venue" class="inactive"><a href="#venue">Venue</a></li>
+			<li id="menu_workshops" class="inactive"><a href="#workshops">Workshops</a></li>
+			<li id="menu_festival" class="inactive"><a href="#festival">Festival</a></li>
+			<li id="menu_blog"><a href="http://blog.rupy.eu/">Blog</a></li>
+		</ul>
+		
+	</div>
+	</div>
+	
+	<div id="about" class="slide">
+	<div class="inside">
+	
+		<div id="twitter">
+		
+			<h2>On twitter</h2>
+		  <div id="tweets"></div>
+		</div>
+		
+		<h1>About</h1>
+		
+		
+		<big>RuPy is all about confronting ideas. It is a unique opportunity to compare and contrast two great, state-of-the-art programming languages and its related technologies.</big>
+
+		<div class="left column">
+			<p>We’ve created a conference aimed at turning a concept combination into a platform where new ideas are capable of growing, unique solutions are ready to appear;  all along with talented folks doing « software ».</p>
+			<p>The idea behind the conference is to animate Eastern Europe by inviting remarkable people from all around the world. We think that supporting a good communication channel for East-West exchange of prospective ideas is necessary for local communities to progress faster.</p>
+			<p>Beginning 2011 the conference will provide extraordinary workshops led by experts in the domain.</p>
+			<p>If you’re fed up with singular, mono-theme technological view, we think you should try a bit of RuPy.</p>
+		
+			<h3>WHAT IS GREAT ABOUT RUPY</h3>
+			
+			<ul>
+				<li>we’re all programmers - RuPy is made by developers for developers (forget so-called digital marketing « experts », geek wannabes, one language « lovers », bizarre equations with hearts, etc.)</li>
+				<li>we’re not orthodox - RuPy is all about exchanging, combining  and confronting different ideas.</li>
+				<li>we’re entirely independent - RuPy is volunteered and is organized by local community. It is not meant to promote any company.</li>
+			</ul>
+
+		</div>
+		
+		<div id="sponsors">
+		  <h4>Sponsors</h4>
+		  <h5>Diamond</h5>
+		  <h5>Gold</h5>
+		  <h5>Silver</h5>
+		  <h5>Supporter</h5>
+			<ul>
+			  <li><a href="http://selleo.com"><span><img alt="Selleo" src="selleo.png"/><span></a></li>
+			  <li><a href="http://github.com"><span><img alt="GitHub" src="GitHub_Logo.png"/><span></a></li>
+			  <li><a href="http://galdomedia.pl"><span><img alt="GaldoMedia" src="galdomedia_Logo.png"/><span></a></li>
+			  <li><a href="http://pragprog.com"><span><img alt="PragmaticProgrammers" src="pragprog_Logo.png" class="bigger"/></span></a></li>
+			</ul>
+			<h5>Media</h5>
+			<ul>
+			  <li><a href="http://dobreprogramy.pl"><img alt="Dobre Programy" src="dobreprogramy.png" class="bigger"/></a></li>
+			</ul>
+		
+		</div>
+		
+	</div> <!-- inside -->
+	
+	</div>
+
+	<div id="speakers" class="slide">
+	<div class="inside">
+
+		<div class="left">
+		
+		<div class="speaker">
+		
+			<div class="img"><img alt="José Valim" src="jose_valim.png"/></div>
+			<h2>José Valim</h2>
+			<h3>Plataforma Tec founder</h3>
+			<div class="web"><a href="http://www.plataformatec.com.br/en/">Plataforma Tec</a></div>
+			<div class="twitter"><a href="http://twitter.com/josevalim"><span>@josevalim</span></a></div>
+			<hr />
+			<p>José Valim is the lead-developer and co-founder of <a href="http://www.plataformatec.com.br/en/">Plataforma Tec</a>. He started working with Ruby and Rails in late 2006 and he began contributing actively to Rails during his Google Summer of Code 2009 project, leading him to be invited to be part of the <a href="http://rubyonrails.org/core">Rails Core Team</a> a few months later. He's been flying constantly between Brazil and Poland. Some say that it is his "eureka" time to code and bring new <a href="http://github.com/josevalim">open-source projects</a> to life. Check for yourself what he's up to on his <a href="http://blog.plataformatec.com.br/">company's blog</a>.</p>
+		</div>
+			
+		<div class="speaker">
+			<div class="img"><img alt="Yehuda Katz" src="yehuda_katz.jpg"/></div>
+			<h2>Yehuda Katz</h2>
+			<h3>-</h3>
+			<div class="web"><a href="http://yehudakatz.com/">yehudakatz.com</a></div>
+			<div class="twitter"><a href="http://twitter.com/#!/wycats"><span>@wycats</span></a></div>
+			<hr />
+			<p>Yehuda Katz is a member of the Ruby on Rails core team, and lead developer of the Merb project. He is a member of the jQuery Core Team, and a core contributor to DataMapper. He contributes to many open source projects, like Rubinius and Johnson, and works on some he created himself, like Thor.
+			</p>
+		</div>
+		
+		<div class="speaker">
+			<div class="img"><img alt="David Beazley" src="david_beazley.jpg"/></div>
+			<h2>David Beazley</h2>
+			<h3>Dabeaz LLC</h3>
+			<div class="web"><a href="http://www.dabeaz.com">dabeaz.com</a></div>
+			<div class="twitter"><a href="http://twitter.com/#!/dabeaz"><span>@dabeaz</span></a></div>
+			<hr />
+			<p>David Beazley is an independent software developer, book author, and consultant living in the city of Chicago. I primarily work on programming tools, provide custom software development, and teach practical programming courses for software developers, scientists, and engineers. I am best known for my work with the Python programming language where I have created several open-source packages (e.g., <a href="http://www.swig.org/">Swig</a> and <a href="http://www.dabeaz.com/ply/index.html">PLY</a>) and authored the acclaimed <a href="http://www.dabeaz.com/per.html">Python Essential Reference</a>. However, I also work on systems software written in C, C++, and assembly language.
+			</p>
+		</div>
+		
+		<div class="speaker">
+    			<div class="img"><img alt="Piotr Sarnacki" src="piotr_sarnacki.jpg"/></div>
+
+    			<h2>Piotr Sarnacki</h2>
+    			<h3>Strobe</h3>
+    			<div class="web"><a href="http://piotrsarnacki.com">piotrsarnacki.com</a></div>
+    			<div class="twitter"><a href="http://twitter.com/#!/drogus"><span>@drogus</span></a></div>
+    			<hr />
+    			<p>Piotr Sarnacki is ruby developer from Poland currently working at <a href="http://www.strobecorp.com">Strobe</a>. During Ruby Summer of Code 2010 he was working on bringing mountable applications to Rails.
+    			</p>
+
+    		</div>
+	</div>
+			
+	<div class="right">
+
+	<big>Tentative List for 2011</big>
+    <div class="speaker">
+			<div class="img"><img alt="Xavier Noria" src="xavier_noria.png"/></div>
+			<h2>Xavier Noria</h2>
+			<h3>-</h3>
+			<div class="web"><a href="http://www.hashref.com/">www.hashref.com</a></div>
+			<div class="twitter"><a href="http://twitter.com/#!/fxn"><span>@fxn</span></a></div>
+			<hr />
+			<p>Xavier Noria was into Perl for some years, he is a <a href="http://search.cpan.org/~fxn/">CPAN author</a> and former leader of <a href="http://barcelona.pm.org/">Barcelona.pm</a>. Xavier has been around Ruby on Rails since 2005. He is a member of <a href="http://contributors.rubyonrails.org/contributors/xavier-noria/commits">the Ruby on Rails core team,</a>, and the author of <a href="http://contributors.rubyonrails.org/">Rails Contributors</a>. He was presented a <a href="http://advogato.org/person/fxn/diary/532.html">Ruby Hero Award in RailsConf 2010</a>, and is the president of the Spanish Ruby Users Group, which organized the <a href="http://www.euruko2009.org/index.html">European Ruby Conference 2009 (EuRuKo 2009)</a>, held in Barcelona. As a dynamic languages enthusiast Xavier also worked with Python for about a year, and is the author of the infamous <a href="http://search.cpan.org/~fxn/Acme-Pythonic/lib/Acme/Pythonic.pm">Acme::Pythonic</a>. A perfect fit for RuPy!
+			</p>
+		</div>
+		
+		<div class="speaker">
+			<div class="img"><img alt="Obie Fernandez" src="obie_fernandez.jpg"/></div>
+			<h2>Obie Fernandez</h2>
+			<h3>-</h3>
+			<div class="web"><a href="http://obiefernandez.com/">obiefernandez.com</a></div>
+			<div class="twitter"><a href="http://twitter.com/obie"><span>@obie</span></a></div>
+			<hr />
+			<p>Obie Fernandez is an old-time Ruby on Rails evangelist and noted member of the Rails community. He authored its "bible" The Rails Way (and later, The Rails 3 Way), and founded one of its leading consultancies, <a href="http://hashrocket.com/">Hashrocket</a>. He is currently CEO of a new startup, RightBonus, that aims to revolutionize the way companies do incentive compensation. He is also a popular blogger and leads the Addison Wesley Professional Ruby Series.
+			</p>
+		</div>
+		
+		<div class="speaker">
+    	<div class="img"><img alt="Ezra Zygmuntowicz" src="ezra_zygmuntowicz.jpg"/></div>
+    	<h2>Ezra Zygmuntowicz</h2>
+    	<h3>Senior Staff Engineer at VMware, Engine Yard Founder</h3>
+    	<div class="web"><a href="http://brainspl.at/">brainspl.at</a></div>
+    	<div class="twitter"><a href="http://twitter.com/ezmobius"><span>@ezmobius</span></a></div>
+    	<hr />
+    	<p>Ezra Zygmuntowicz, is a lead contributor to the <a href="http://www.merbivore.com/">Merb framework</a> and is a co-founder of <a href="http://www.engineyard.com/">EngineYard</a>, a scalable Rails hosting service. He is the author of the Deploying Rails Applications book for the <a href="http://pragprog.com/">Pragmatic Programmers</a> and has contributed many open source Ruby and Rails related projects. 
+    	</p>
+    </div>
+
+		
+	</div>
+	<hr />			
+			
+		
+	</div>
+	</div>
+	
+	<div id="footer">
+	
+		<a href="#top" id="top">GO TO TOP</a>
+
+    <div id="true">
+
+    	    Led by <a href="http://twitter.com/zaiste">@zaiste</a> and organized by <a href="http://twitter.com/ptynecki">@ptynecki</a>, <a href="http://twitter.com/theadam">@theadam</a>, <a href="http://twitter.com/sharnik">@sharnik</a>, <a href="http://twitter.com/pszlagowski">@pszlagowski</a>, <a href="http://twitter.com/kstarski">@kstarski</a>, <a href="http://twitter.com/k_rother">@k_rother</a>, <a href="http://twitter.com/alovak">@alovak</a>, <a href="http://twitter.com/mlitwiniuk">@mlitwiniuk</a>, <a href="http://twitter.com/marek_jelen">@marek_jelen</a> 
+    	  </div>
+	
+		<a href="http://www.true.pl" id="true2">DESIGN 100% by true</a>
+		
+	</div>
+
+</div>
+
+  
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8394595-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</body>
+</html>
