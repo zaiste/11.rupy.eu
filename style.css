@@ -187,7 +187,7 @@ hr {
 	right: 20px;
 	top: -430px;
 	width: 270px;
-	height: 1150px;
+	height: 1300px;
 }
 
 #about #sponsors h4 {
@@ -203,6 +203,9 @@ hr {
 	font-size: 0.9em;
 	text-align: center;
 	text-transform: uppercase;
+	background-color: #C4AD84;
+	color: white;
+	padding: 3px;
 }
 
 #about #sponsors ul {
@@ -216,12 +219,16 @@ hr {
 	margin-bottom: 10px;
 }
 
+#about #sponsors img.smaller {
+	width: 65px;
+}
+
 #about #sponsors img {
-	width: 125px;
+	width: 110px;
 }
 
 #about #sponsors img.bigger {
-	width: 200px;
+	width: 170px;
 }
 
 #speakers {
