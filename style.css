@@ -1,3 +1,5 @@
+/* @override http://www.rupy.eu/style.css */
+
 /* @override 
 	http://true.pl/projekty/rupy/style.css
 	http://projekty.true.pl/rupy/style.css
@@ -16,6 +18,16 @@ body {
 
 .typekit-badge {
 	display: none !important;
+}
+
+#previous {
+	width: 180px;
+	padding: 5px 10px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	font-size: 12px;
+	text-align: center;	
 }
 
 #outside {
@@ -94,15 +106,15 @@ hr {
 	width: 190px;
 	left: 625px;
 	top: 70px;
-	background: #fff;
+	background: #aa9067;
 	text-align: center;
 	padding: 5px;
-	text-decoration: none;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #8f0000;
 	line-height: 20px;
 	font-size: 16px;
+	text-decoration: line-through;
 }
 
 #home #register {
@@ -110,13 +122,13 @@ hr {
 	width: 190px;
 	left: 625px;
 	top: 110px;
-	background: #aa9067;
+	background: #fff;
 	text-align: center;
 	padding: 5px;
 	text-decoration: none;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #806543;
+	color: #8f0000;
 	line-height: 20px;
 	font-size: 16px;
 }
@@ -138,6 +150,12 @@ hr {
 #about #twitter h2 {
 	margin: 0;
 }
+#about #twitter #tweets {
+	height: 230px;
+	overflow: hidden;
+	
+}
+
 #about #twitter ul {
 	margin: 10px 0 0;
 	padding: 0;
@@ -153,7 +171,7 @@ hr {
 }
 
 #about {
-	background: url(about.png) no-repeat center bottom	;
+	background: url(about.png) no-repeat center bottom;
 }
 #about .inside {
 	height: 700px;
@@ -187,7 +205,7 @@ hr {
 	right: 20px;
 	top: -430px;
 	width: 270px;
-	height: 1300px;
+	padding-bottom: 50px;
 }
 
 #about #sponsors h4 {
@@ -232,7 +250,7 @@ hr {
 }
 
 #speakers {
-	background: url(speakers.png) no-repeat center 0;
+	background: url(speakers.png) no-repeat center top;
 }
 #speakers h1 {
 	margin-bottom: 60px;
@@ -408,6 +426,6 @@ big {
 	margin-top: 200px;
 }
 #footer #true2 {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
