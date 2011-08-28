@@ -349,6 +349,119 @@ hr {
 	padding-right: 50px;
 }
 
+#venue {
+	background: url(venue.png) no-repeat center top;
+	height: 500px;
+}
+
+#venue .map {
+	border: 10px solid #417e23;
+	height: 350px;
+}
+
+#venue .poznan.left {
+	float: left;
+	color: #fff;
+	width: 460px;
+	margin-right: 180px;
+
+}
+
+#venue .right.poznan {
+	float: left;
+	margin-top: 0;
+}
+#venue .poznan h2 {
+	font-size: 30px;
+	margin: 1.5em 0 0.5em;
+}
+
+#venue .poznan p {
+	margin: 0;
+	font-size: 15px;
+}
+.travel.info  {
+	clear: both;
+	background: url(travelinfo.png) no-repeat center top;
+}
+.travel.info .inside {
+	padding-bottom: 0;
+	padding-top: 100px;
+}
+
+.travel.info .inside .border {
+	padding-bottom: 50px;
+	border-bottom: 10px solid #fff;
+
+}
+
+.travel.info .column {
+	float: left;
+	width: 320px;
+}
+.travel.info .column.middle {
+	margin: 10px 70px;
+}
+
+
+
+#accomodation {
+	background: url(accomodation.png) no-repeat center 50px;
+}
+
+#accomodation .inside  {
+	padding-top: 150px;
+}
+#accomodation .column {
+	float: left;
+	width: 320px;
+}
+#accomodation .column.middle {
+	margin: 10px 70px;
+}
+
+
+#workshops .inside {
+	background: url(workshops.png) no-repeat center 50px;
+	padding-top: 180px;
+
+}
+
+#workshops .workshop {
+	background: #fff;
+	padding: 30px;
+	margin-bottom: 10px;
+	
+}
+
+#workshops .workshop .img {
+	background: url(background.jpg);
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	float: left;
+}
+#workshops .workshop h3 {
+	margin: 0;
+	margin-left: 200px;
+	color: #806d4d;
+}
+#workshops .workshop h2 {
+	margin: 0;
+	margin-left: 200px;
+	text-transform: uppercase;
+	color: #33631a;
+}
+#workshops .workshop p {
+	margin-left: 200px;
+}
+
+
+.no.top.margin {
+	margin-top: 0 !important;
+}
+
+
 h1 {
 	font-size: 64px;
 	font-weight: 800;
@@ -397,7 +510,6 @@ big {
 }
 
 #footer {
-	background: url(footer.png) no-repeat center top;
 	padding-bottom: 50px;
 }
 
