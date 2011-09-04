@@ -455,6 +455,16 @@ hr {
 #workshops .workshop p {
 	margin-left: 200px;
 }
+#workshops .workshop h5 {
+	margin: 0;
+	margin-left: 200px;
+	margin-bottom: 12px;
+}
+#workshops .workshop ol {
+	margin: 0;
+	margin-left: 200px;
+}
+
 
 
 .no.top.margin {
