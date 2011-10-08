@@ -2,17 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
 <head>
     <title>RUPY</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=980" /> 	
-	<link rel="stylesheet" rev="stylesheet" href="style.css" type="text/css" />
-	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="jquery.tweetable.min.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=980" />    
+    <link rel="stylesheet" rev="stylesheet" href="style.css" type="text/css" />
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.tweetable.min.js"></script>
 
-	<script type="text/javascript" src="http://use.typekit.com/dbh6cbs.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="http://use.typekit.com/dbh6cbs.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	<meta name="viewport" content="width=1200" /> 		
+    <meta name="viewport" content="width=1200" />       
     
     <script type="text/javascript">
       $(document).ready(function() {
@@ -21,372 +21,373 @@
       
       $("#sponsors ul li").hover(function() { //On hover...
 
-      		var thumbOver = $(this).find("img").attr("src"); //Get image url and assign it to 'thumbOver'
+            var thumbOver = $(this).find("img").attr("src"); //Get image url and assign it to 'thumbOver'
 
-      		//Set a background image(thumbOver) on the <a> tag - Set position to bottom
-      		$(this).find("a.thumb").css({'background' : 'url(' + thumbOver + ') no-repeat center bottom'});
+            //Set a background image(thumbOver) on the <a> tag - Set position to bottom
+            $(this).find("a.thumb").css({'background' : 'url(' + thumbOver + ') no-repeat center bottom'});
 
-      		//Animate the image to 0 opacity (fade it out)
-      		$(this).find("span").stop().fadeTo('normal', 0 , function() {
-      			$(this).hide() //Hide the image after fade
-      		});
-      	} , function() { //on hover out...
-      		//Fade the image to full opacity 
-      		$(this).find("span").stop().fadeTo('normal', 1).show();
-      	});    
+            //Animate the image to 0 opacity (fade it out)
+            $(this).find("span").stop().fadeTo('normal', 0 , function() {
+                $(this).hide() //Hide the image after fade
+            });
+        } , function() { //on hover out...
+            //Fade the image to full opacity 
+            $(this).find("span").stop().fadeTo('normal', 1).show();
+        });    
     </script>   
 </head> 
 <body id="top">
 <div id="outside">
-	
-	<div id="home" class="slide">
-	  
-	<div class="inside">  
-	   	<div id="previous"><strong> Previous editions: </strong> <a href="http://09.rupy.eu">RuPy 2009</a></div>
-		<div id="date">14th-16th October, Poznan POLAND</div>
-		
-		<a href="http://cl.ly/1y2c0J1Z3D443S1x400Y" id="sponsor">Sponsor us</a>
-		<a href="http://agenda.rupy.eu/" id="cfp">Agenda</a>
-		<a href="http://rupy.stagehq.com/events/922/booking/new" id="register">Register now</a>
+    
+    <div id="home" class="slide">
+      
+    <div class="inside">  
+        <div id="previous"><strong> Previous editions: </strong> <a href="http://09.rupy.eu">RuPy 2009</a></div>
+        <div id="date">14th-16th October, Poznan POLAND</div>
+        
+        <a href="http://cl.ly/1y2c0J1Z3D443S1x400Y" id="sponsor">Sponsor us</a>
+        <a href="http://agenda.rupy.eu/" id="cfp">Agenda</a>
+        <a href="http://rupy.stagehq.com/events/922/booking/new" id="register">Register now</a>
 
-		
-		
-	</div>
-	</div>
-	
-	<div id="menu">
-	<div class="inside">
-		
-		<ul>		
-			<li id="menu_about"><a href="#about">About</a></li>
-			<li id="menu_speakers"><a href="#speakers">Speakers</a></li>
-			<li id="menu_venue" class="inactive"><a href="#venue">Venue</a></li>
-			<li id="menu_workshops" class="inactive"><a href="#workshops">Workshops</a></li>
-			<li id="menu_festival" class="inactive"><a href="#festival">Festival</a></li>
-			<li id="menu_blog"><a href="http://blog.rupy.eu/">Blog</a></li>
-		</ul>
-		
-	</div>
-	</div>
-	
-	<div id="about" class="slide">
-	<div class="inside">
-	
-		<div id="twitter">
-		
-			<h2>On twitter</h2>
-		  	<div id="tweets">&nbsp;</div>
-		</div>
-		
-		<h1>About</h1>
-		
-		
-		<big>RuPy is all about confronting ideas. It is a unique opportunity to compare and contrast two great, state-of-the-art programming languages and its related technologies.</big>
+        
+        
+    </div>
+    </div>
+    
+    <div id="menu">
+    <div class="inside">
+        
+        <ul>        
+            <li id="menu_about"><a href="#about">About</a></li>
+            <li id="menu_speakers"><a href="#speakers">Speakers</a></li>
+            <li id="menu_venue" class="inactive"><a href="#venue">Venue</a></li>
+            <li id="menu_workshops" class="inactive"><a href="#workshops">Workshops</a></li>
+            <li id="menu_festival" class="inactive"><a href="#festival">Festival</a></li>
+            <li id="menu_blog"><a href="http://blog.rupy.eu/">Blog</a></li>
+        </ul>
+        
+    </div>
+    </div>
+    
+    <div id="about" class="slide">
+    <div class="inside">
+    
+        <div id="twitter">
+        
+            <h2>On twitter</h2>
+            <div id="tweets">&nbsp;</div>
+        </div>
+        
+        <h1>About</h1>
+        
+        
+        <big>RuPy is all about confronting ideas. It is a unique opportunity to compare and contrast two great, state-of-the-art programming languages and its related technologies.</big>
 
-		<div class="left column">
-			<p>We’ve created a conference aimed at turning a concept combination into a platform where new ideas are capable of growing, unique solutions are ready to appear;  all along with talented folks doing « software ».</p>
-			<p>The idea behind the conference is to animate Eastern Europe by inviting remarkable people from all around the world. We think that supporting a good communication channel for East-West exchange of prospective ideas is necessary for local communities to progress faster.</p>
-			<p>Beginning 2011 the conference will provide extraordinary workshops led by experts in the domain.</p>
-			<p>If you’re fed up with singular, mono-theme technological view, we think you should try a bit of RuPy.</p>
-		
-			<h3>WHAT IS GREAT ABOUT RUPY</h3>
-			
-			<ul>
-				<li>we’re all programmers - RuPy is made by developers for developers (forget so-called digital marketing « experts », geek wannabes, one language « lovers », bizarre equations with hearts, etc.)</li>
-				<li>we’re not orthodox - RuPy is all about exchanging, combining  and confronting different ideas.</li>
-				<li>we’re entirely independent - RuPy is volunteered and is organized by local community. It is not meant to promote any company.</li>
-			</ul>
+        <div class="left column">
+            <p>We’ve created a conference aimed at turning a concept combination into a platform where new ideas are capable of growing, unique solutions are ready to appear;  all along with talented folks doing « software ».</p>
+            <p>The idea behind the conference is to animate Eastern Europe by inviting remarkable people from all around the world. We think that supporting a good communication channel for East-West exchange of prospective ideas is necessary for local communities to progress faster.</p>
+            <p>Beginning 2011 the conference will provide extraordinary workshops led by experts in the domain.</p>
+            <p>If you’re fed up with singular, mono-theme technological view, we think you should try a bit of RuPy.</p>
+        
+            <h3>WHAT IS GREAT ABOUT RUPY</h3>
+            
+            <ul>
+                <li>we’re all programmers - RuPy is made by developers for developers (forget so-called digital marketing « experts », geek wannabes, one language « lovers », bizarre equations with hearts, etc.)</li>
+                <li>we’re not orthodox - RuPy is all about exchanging, combining  and confronting different ideas.</li>
+                <li>we’re entirely independent - RuPy is volunteered and is organized by local community. It is not meant to promote any company.</li>
+            </ul>
 
-		</div>
-		
-		<div id="sponsors">
-		  <h4>Sponsors</h4>
-		  <h5>Silver</h5>
-		  <ul>
-		    <li><a href="http://www.nokaut.pl"><span><img alt="Grupa Nokaut S.A." src="grupanokaut_logotype.png" class="bigger"/><span></a></li>
-			  <li><a href="http://jetbrains.com"><span><img alt="JetBrains" src="rm_pcbyjb.png" class="bigger"/><span></a></li>
-			  <li><a href="http://www.enterprise-rails.com/"><span><img alt="Enterprise Rails by Avarteq" src="avarteq.png"/><span></a></li>  
-			  <li><a href="http://www.codeschool.com/"><span><img alt="CodeSchool by EnvyLabs" src="code_school.png" class="bigger"/><span></a></li> 
-			  <li><a href="http://www.citeam.pl/"><span><img alt="Citeam - Zakupy grupowe od Allegro" src="citeam_allegrogroup.png" class="bigger"/><span></a></li>  
-			</ul>
-		  <h5>Supporter</h5>
-			<ul>
+        </div>
+        
+        <div id="sponsors">
+          <h4>Sponsors</h4>
+          <h5>Silver</h5>
+          <ul>
+            <li><a href="http://www.nokaut.pl"><span><img alt="Grupa Nokaut S.A." src="grupanokaut_logotype.png" class="bigger"/><span></a></li>
+              <li><a href="http://jetbrains.com"><span><img alt="JetBrains" src="rm_pcbyjb.png" class="bigger"/><span></a></li>
+              <li><a href="http://www.enterprise-rails.com/"><span><img alt="Enterprise Rails by Avarteq" src="avarteq.png"/><span></a></li>  
+              <li><a href="http://www.codeschool.com/"><span><img alt="CodeSchool by EnvyLabs" src="code_school.png" class="bigger"/><span></a></li> 
+              <li><a href="http://www.citeam.pl/"><span><img alt="Citeam - Zakupy grupowe od Allegro" src="citeam_allegrogroup.png" class="bigger"/><span></a></li>  
+            </ul>
+          <h5>Supporter</h5>
+            <ul>
 
-			  <li><a href="http://selleo.com"><span><img alt="Selleo" src="selleo.png"/><span></a></li>
-			  <li><a href="http://github.com"><span><img alt="GitHub" src="GitHub_Logo.png"/><span></a></li>
-			  <li><a href="http://galdomedia.pl"><span><img alt="GaldoMedia" src="galdomedia_Logo.png" class="smaller"/><span></a></li>
-			  <li><a href="http://pragprog.com"><span><img alt="Pragmatic Programmers" src="pragprog_Logo.png" class="bigger"/></span></a></li>
-			  <li><a href="http://skillsmatter.com"><span><img alt="Skills Matter" src="skills_matter_logo.png"/></span></a></li>
-			  <li><a href="http://codegram.com/"><span><img alt="Codegram" src="codegram_logo_small.png"/></span></a></li>
-			  <li><a href="http://af83.com/"><span><img alt="AF83" src="af83_logo.png"/></span></a></li>
-			  <li><a href="http://redhat.com/"><span><img alt="RedHat" src="redhat_logo.jpg" class="bigger"/></span></a></li>
-			  			  
-			</ul>
-			<h5>Media</h5>
-			<ul>
-			  <li><a href="http://dobreprogramy.pl"><img alt="Dobre Programy" src="dobreprogramy.png" class="bigger"/></a></li>
-			  <li><a href="http://rubyflow.ru"><img alt="Ruby Flow RU" src="rubyflow.png"/></a><a href="http://rubyjobs.ru"><img alt="Ruby Jobs RU" src="rubyjobs.png"/></a></li>
-			  <li><a href="http://pl.python.org"><img alt="Polish Python Coders Group" src="ppcglogo.gif" class="bigger"/></a></li>
-			  <li><a href="http://en.bioinformatyk.eu/"><img alt="Bioinformatyk" src="bioinfo.png" class="bigger"/></a></li>
-			</ul>
-		
-		</div>
-		
-	</div> <!-- inside -->
-	
-	</div>
+              <li><a href="http://selleo.com"><span><img alt="Selleo" src="selleo.png"/><span></a></li>
+              <li><a href="http://github.com"><span><img alt="GitHub" src="GitHub_Logo.png"/><span></a></li>
+              <li><a href="http://galdomedia.pl"><span><img alt="GaldoMedia" src="galdomedia_Logo.png" class="smaller"/><span></a></li>
+              <li><a href="http://pragprog.com"><span><img alt="Pragmatic Programmers" src="pragprog_Logo.png" class="bigger"/></span></a></li>
+              <li><a href="http://skillsmatter.com"><span><img alt="Skills Matter" src="skills_matter_logo.png"/></span></a></li>
+              <li><a href="http://codegram.com/"><span><img alt="Codegram" src="codegram_logo_small.png"/></span></a></li>
+              <li><a href="http://af83.com/"><span><img alt="AF83" src="af83_logo.png"/></span></a></li>
+              <li><a href="http://redhat.com/"><span><img alt="RedHat" src="redhat_logo.jpg" class="bigger"/></span></a></li>
+                          
+            </ul>
+            <h5>Media</h5>
+            <ul>
+              <li><a href="http://dobreprogramy.pl"><img alt="Dobre Programy" src="dobreprogramy.png" class="bigger"/></a></li>
+              <li><a href="http://rubyflow.ru"><img alt="Ruby Flow RU" src="rubyflow.png"/></a><a href="http://rubyjobs.ru"><img alt="Ruby Jobs RU" src="rubyjobs.png"/></a></li>
+              <li><a href="http://pl.python.org"><img alt="Polish Python Coders Group" src="ppcglogo.gif" class="bigger"/></a></li>
+              <li><a href="http://en.bioinformatyk.eu/"><img alt="Bioinformatyk" src="bioinfo.png" class="bigger"/></a></li>
+            </ul>
+        
+        </div>
+        
+    </div> <!-- inside -->
+    
+    </div>
 
-	<div id="speakers" class="slide">
-	<div class="inside">
+    <div id="speakers" class="slide">
+    <div class="inside">
 
-		<div class="left">
-		
-		<div class="speaker">
-		
-			<div class="img"><img alt="José Valim" src="jose_valim.png"/></div>
-			<h2>José Valim</h2>
-			<h3>Plataforma Tec founder</h3>
-			<div class="web"><a href="http://www.plataformatec.com.br/en/">Plataforma Tec</a></div>
-			<div class="twitter"><a href="http://twitter.com/josevalim"><span>@josevalim</span></a></div>
-			<hr />
-			<p>José Valim is the lead-developer and co-founder of <a href="http://www.plataformatec.com.br/en/">Plataforma Tec</a>. He started working with Ruby and Rails in late 2006 and he began contributing actively to Rails during his Google Summer of Code 2009 project, leading him to be invited to be part of the <a href="http://rubyonrails.org/core">Rails Core Team</a> a few months later. He's been flying constantly between Brazil and Poland. Some say that it is his "eureka" time to code and bring new <a href="http://github.com/josevalim">open-source projects</a> to life. Check for yourself what he's up to on his <a href="http://blog.plataformatec.com.br/">company's blog</a>.</p>
-		</div>
-			
-		<div class="speaker">
-			<div class="img"><img alt="Yehuda Katz" src="yehuda_katz.jpg"/></div>
-			<h2>Yehuda Katz</h2>
-			<h3>-</h3>
-			<div class="web"><a href="http://yehudakatz.com/">yehudakatz.com</a></div>
-			<div class="twitter"><a href="http://twitter.com/#!/wycats"><span>@wycats</span></a></div>
-			<hr />
-			<p>Yehuda Katz is a member of the Ruby on Rails core team, and lead developer of the Merb project. He is a member of the jQuery Core Team, and a core contributor to DataMapper. He contributes to many open source projects, like Rubinius and Johnson, and works on some he created himself, like Thor.
-			</p>
-		</div>
-		
-		<div class="speaker">
-			<div class="img"><img alt="David Beazley" src="david_beazley.jpg"/></div>
-			<h2>David Beazley</h2>
-			<h3>Dabeaz LLC</h3>
-			<div class="web"><a href="http://www.dabeaz.com">dabeaz.com</a></div>
-			<div class="twitter"><a href="http://twitter.com/#!/dabeaz"><span>@dabeaz</span></a></div>
-			<hr />
-			<p>David Beazley is an independent software developer, book author, and consultant living in the city of Chicago. I primarily work on programming tools, provide custom software development, and teach practical programming courses for software developers, scientists, and engineers. I am best known for my work with the Python programming language where I have created several open-source packages (e.g., <a href="http://www.swig.org/">Swig</a> and <a href="http://www.dabeaz.com/ply/index.html">PLY</a>) and authored the acclaimed <a href="http://www.dabeaz.com/per.html">Python Essential Reference</a>. However, I also work on systems software written in C, C++, and assembly language.
-			</p>
-		</div>
-		
-		<div class="speaker">
-    	<div class="img"><img alt="Piotr Sarnacki" src="piotr_sarnacki.jpg"/></div>
-    	<h2>Piotr Sarnacki</h2>
-    	<h3>Strobe</h3>
-    	<div class="web"><a href="http://piotrsarnacki.com">piotrsarnacki.com</a></div>
-    	<div class="twitter"><a href="http://twitter.com/#!/drogus"><span>@drogus</span></a></div>
-    	<hr />
-    	<p>Piotr Sarnacki is ruby developer from Poland currently working at <a href="http://www.strobecorp.com">Strobe</a>. During Ruby Summer of Code 2010 he was working on bringing mountable applications to Rails.</p>
+        <div class="left">
+        
+        <div class="speaker">
+        
+            <div class="img"><img alt="José Valim" src="jose_valim.png"/></div>
+            <h2>José Valim</h2>
+            <h3>Plataforma Tec founder</h3>
+            <div class="web"><a href="http://www.plataformatec.com.br/en/">Plataforma Tec</a></div>
+            <div class="twitter"><a href="http://twitter.com/josevalim"><span>@josevalim</span></a></div>
+            <hr />
+            <p>José Valim is the lead-developer and co-founder of <a href="http://www.plataformatec.com.br/en/">Plataforma Tec</a>. He started working with Ruby and Rails in late 2006 and he began contributing actively to Rails during his Google Summer of Code 2009 project, leading him to be invited to be part of the <a href="http://rubyonrails.org/core">Rails Core Team</a> a few months later. He's been flying constantly between Brazil and Poland. Some say that it is his "eureka" time to code and bring new <a href="http://github.com/josevalim">open-source projects</a> to life. Check for yourself what he's up to on his <a href="http://blog.plataformatec.com.br/">company's blog</a>.</p>
+        </div>
+            
+        <div class="speaker">
+            <div class="img"><img alt="Yehuda Katz" src="yehuda_katz.jpg"/></div>
+            <h2>Yehuda Katz</h2>
+            <h3>-</h3>
+            <div class="web"><a href="http://yehudakatz.com/">yehudakatz.com</a></div>
+            <div class="twitter"><a href="http://twitter.com/#!/wycats"><span>@wycats</span></a></div>
+            <hr />
+            <p>Yehuda Katz is a member of the Ruby on Rails core team, and lead developer of the Merb project. He is a member of the jQuery Core Team, and a core contributor to DataMapper. He contributes to many open source projects, like Rubinius and Johnson, and works on some he created himself, like Thor.
+            </p>
+        </div>
+        
+        <div class="speaker">
+            <div class="img"><img alt="David Beazley" src="david_beazley.jpg"/></div>
+            <h2>David Beazley</h2>
+            <h3>Dabeaz LLC</h3>
+            <div class="web"><a href="http://www.dabeaz.com">dabeaz.com</a></div>
+            <div class="twitter"><a href="http://twitter.com/#!/dabeaz"><span>@dabeaz</span></a></div>
+            <hr />
+            <p>David Beazley is an independent software developer, book author, and consultant living in the city of Chicago. I primarily work on programming tools, provide custom software development, and teach practical programming courses for software developers, scientists, and engineers. I am best known for my work with the Python programming language where I have created several open-source packages (e.g., <a href="http://www.swig.org/">Swig</a> and <a href="http://www.dabeaz.com/ply/index.html">PLY</a>) and authored the acclaimed <a href="http://www.dabeaz.com/per.html">Python Essential Reference</a>. However, I also work on systems software written in C, C++, and assembly language.
+            </p>
+        </div>
+        
+        <div class="speaker">
+        <div class="img"><img alt="Piotr Sarnacki" src="piotr_sarnacki.jpg"/></div>
+        <h2>Piotr Sarnacki</h2>
+        <h3>Strobe</h3>
+        <div class="web"><a href="http://piotrsarnacki.com">piotrsarnacki.com</a></div>
+        <div class="twitter"><a href="http://twitter.com/#!/drogus"><span>@drogus</span></a></div>
+        <hr />
+        <p>Piotr Sarnacki is ruby developer from Poland currently working at <a href="http://www.strobecorp.com">Strobe</a>. During Ruby Summer of Code 2010 he was working on bringing mountable applications to Rails.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Bruno Michel" src="bruno_michel.jpg"/></div>
-    	<h2>Bruno Michel</h2>
-    	<h3>Lead Developer at af83</h3>
-    	<div class="web"><a href="http://dev.af83.com/">dev.af83.com</a></div>
-    	<div class="twitter"><a href="http://twitter.com/brmichel"><span>@brmichel</span></a></div>
-    	<hr />
-    	<p>Bruno Michel is the Lead Developer of <a href="http://af83.com/">af83</a> the day, and an active proponent of Open-Source development the night. He is the main developer of <a href="http://linuxfr.org/">LinuxFr.org</a>, a popular french website about Linux and Free Software. But he's also involved in local user groups: he organized the first <a href="http://parisjs.org/">Paris.JS</a> meetup and he's the president of <a href="http://www.rubyfrance.org/">Ruby France</a>.
-    	</p>
+        <div class="img"><img alt="Bruno Michel" src="bruno_michel.jpg"/></div>
+        <h2>Bruno Michel</h2>
+        <h3>Lead Developer at af83</h3>
+        <div class="web"><a href="http://dev.af83.com/">dev.af83.com</a></div>
+        <div class="twitter"><a href="http://twitter.com/brmichel"><span>@brmichel</span></a></div>
+        <hr />
+        <p>Bruno Michel is the Lead Developer of <a href="http://af83.com/">af83</a> the day, and an active proponent of Open-Source development the night. He is the main developer of <a href="http://linuxfr.org/">LinuxFr.org</a>, a popular french website about Linux and Free Software. But he's also involved in local user groups: he organized the first <a href="http://parisjs.org/">Paris.JS</a> meetup and he's the president of <a href="http://www.rubyfrance.org/">Ruby France</a>.
+        </p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Andrew Mleczko" src="andrew_mleczko.jpg"/></div>
-    	<h2>Andrew Mleczko</h2>
-    	<h3>RedTurtle</h3>
-    	<div class="web"><a href="http://blog.redturtle.it/redturtle-blog/authors/amleczko">blog.redturtle.it/redturtle-blog/authors/amleczko</a></div>
-    	<div class="twitter"><a href="http://twitter.com/amleczko"><span>@amleczko</span></a></div>
-    	<hr />
-    	<p>Andrew has been involved in the Python community since 2003. He has contributed multiple open source projects and has spoken at various Plone/Python conferences and regional symposia. He has also got involved in Plone TuneUp events encouraging new developers to participate. In his current projects he is integrating Plone with Pyramid.
-    	</p>
+        <div class="img"><img alt="Andrew Mleczko" src="andrew_mleczko.jpg"/></div>
+        <h2>Andrew Mleczko</h2>
+        <h3>RedTurtle</h3>
+        <div class="web"><a href="http://blog.redturtle.it/redturtle-blog/authors/amleczko">blog.redturtle.it/redturtle-blog/authors/amleczko</a></div>
+        <div class="twitter"><a href="http://twitter.com/amleczko"><span>@amleczko</span></a></div>
+        <hr />
+        <p>Andrew has been involved in the Python community since 2003. He has contributed multiple open source projects and has spoken at various Plone/Python conferences and regional symposia. He has also got involved in Plone TuneUp events encouraging new developers to participate. In his current projects he is integrating Plone with Pyramid.
+        </p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Jonathan Weiss" src="jonathan_weiss.jpg"/></div>
-    	<h2>Jonathan Weiss</h2>
-    	<h3>CEO at Peritor GmbH</h3>
-    	<div class="web"><a href="http://blog.innerewut.de">blog.innerewut.de</a></div>
-    	<div class="twitter"><a href="http://twitter.com/jweiss"><span>@jweiss</span></a></div>
-    	<hr />
-    	<p>Jonathan Weiss is the CEO of Peritor GmbH, from Berlin Germany. Apart from working on Scalarium he enjoys writing lots of Ruby code and contributing to Capistrano or Nanite. He is the author of Webistrano and several Ruby toolkits around CouchDB.</p>
+        <div class="img"><img alt="Jonathan Weiss" src="jonathan_weiss.jpg"/></div>
+        <h2>Jonathan Weiss</h2>
+        <h3>CEO at Peritor GmbH</h3>
+        <div class="web"><a href="http://blog.innerewut.de">blog.innerewut.de</a></div>
+        <div class="twitter"><a href="http://twitter.com/jweiss"><span>@jweiss</span></a></div>
+        <hr />
+        <p>Jonathan Weiss is the CEO of Peritor GmbH, from Berlin Germany. Apart from working on Scalarium he enjoys writing lots of Ruby code and contributing to Capistrano or Nanite. He is the author of Webistrano and several Ruby toolkits around CouchDB.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Kristian Mandrup" src="kmandrup.jpg"/></div>
-    	<h2>Kristian Mandrup</h2>
-    	<h3>-</h3>
-    	<div class="web"><a href="http://kmandrup.wordpress.com">kmandrup.wordpress.com</a></div>
-    	<div class="twitter"><a href="http://twitter.com/kmandrup"><span>@kmandrup</span></a></div>
-    	<hr />
-    	<p>Kristian has been a web developer since the .com years of the late 90s, and has progressed through dozens of languages and web frameworks. He discovered Ruby and Rails a little over 2 years ago, but already has created more than 100 gems, that he hosts on his github account. His passion for creating generic, reusable components and frameworks is clear and he strives to constantly beautify his code. Kristian works as a Rails developer for <a href="http://downtown.dk">downtown.dk</a> in Copenhagen.</p>
+        <div class="img"><img alt="Kristian Mandrup" src="kmandrup.jpg"/></div>
+        <h2>Kristian Mandrup</h2>
+        <h3>-</h3>
+        <div class="web"><a href="http://kmandrup.wordpress.com">kmandrup.wordpress.com</a></div>
+        <div class="twitter"><a href="http://twitter.com/kmandrup"><span>@kmandrup</span></a></div>
+        <hr />
+        <p>Kristian has been a web developer since the .com years of the late 90s, and has progressed through dozens of languages and web frameworks. He discovered Ruby and Rails a little over 2 years ago, but already has created more than 100 gems, that he hosts on his github account. His passion for creating generic, reusable components and frameworks is clear and he strives to constantly beautify his code. Kristian works as a Rails developer for <a href="http://downtown.dk">downtown.dk</a> in Copenhagen.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Josh Kalderimis" src="josh_kalderimis.jpg"/></div>
-    	<h2>Josh Kalderimis</h2>
-    	<h3>-</h3>
-    	<div class="web"><a href="http://blog.cookiestack.com">blog.cookiestack.com</a></div>
-    	<div class="twitter"><a href="http://twitter.com/joshkalderimis"><span>@joshkalderimis</span></a></div>
-    	<hr />
-    	<p>Josh is a top-30 Ruby on Rails contributor and has been working with the framework since 2008. He maintains a massive amount of open-source Ruby projects, including multi_json, linkedin, faraday_middleware and his own completeness-fu. He's also one of Amsterdam.rb's organizers, and an interregnal part of the Travis-CI team.</p>
+        <div class="img"><img alt="Josh Kalderimis" src="josh_kalderimis.jpg"/></div>
+        <h2>Josh Kalderimis</h2>
+        <h3>-</h3>
+        <div class="web"><a href="http://blog.cookiestack.com">blog.cookiestack.com</a></div>
+        <div class="twitter"><a href="http://twitter.com/joshkalderimis"><span>@joshkalderimis</span></a></div>
+        <hr />
+        <p>Josh is a top-30 Ruby on Rails contributor and has been working with the framework since 2008. He maintains a massive amount of open-source Ruby projects, including multi_json, linkedin, faraday_middleware and his own completeness-fu. He's also one of Amsterdam.rb's organizers, and an interregnal part of the Travis-CI team.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Paweł Komarnicki" src="pawel_komarnicki.png"/></div>
-    	<h2>Paweł Komarnicki</h2>
-    	<h3>-</h3>
-    	<div class="web"><a href="http://komarnicki.webd.pl ">komarnicki.webd.pl</a></div>
-    	<div class="twitter"><a href="http://twitter.com/pawelkomarnicki"><span>@pawelkomarnicki</span></a></div>
-    	<hr />
-    	<p>Rails bender and innovation lover — being fully commited to the Ruby and its Rails platform for over 4 years now, I might tell I cannot live without them. I've already done several projects like social websites, price comparison systems, neural networks implementations. At work I am a software designer and developer of sophisticated applications, and after the work dedicated dog fan, photographer and creative author.</p>
+        <div class="img"><img alt="Paweł Komarnicki" src="pawel_komarnicki.png"/></div>
+        <h2>Paweł Komarnicki</h2>
+        <h3>-</h3>
+        <div class="web"><a href="http://komarnicki.webd.pl ">komarnicki.webd.pl</a></div>
+        <div class="twitter"><a href="http://twitter.com/pawelkomarnicki"><span>@pawelkomarnicki</span></a></div>
+        <hr />
+        <p>Rails bender and innovation lover — being fully commited to the Ruby and its Rails platform for over 4 years now, I might tell I cannot live without them. I've already done several projects like social websites, price comparison systems, neural networks implementations. At work I am a software designer and developer of sophisticated applications, and after the work dedicated dog fan, photographer and creative author.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Łukasz Langa" src="lukasz_langa.jpg"/></div>
-    	<h2>Łukasz Langa</h2>
-    	<h3>Software Engineer at Grupa Allegro</h3>
-    	<div class="web"><a href="http://lukasz.langa.pl/">lukasz.langa.pl/</a></div>
-    	<div class="twitter"><a href="http://twitter.com/llanga"><span>@llanga</span></a></div>
-    	<hr />
-    	<p>Łukasz Langa is a rookie father and husband based in Poznań, Poland. In his free time he's using Python at Grupa Allegro and improving CPython as a member of its core team. Łukasz is a perfectionist, big fan of readable and testable code, building stuff is his thing since the first box of Legos.</p>
+        <div class="img"><img alt="Łukasz Langa" src="lukasz_langa.jpg"/></div>
+        <h2>Łukasz Langa</h2>
+        <h3>Software Engineer at Grupa Allegro</h3>
+        <div class="web"><a href="http://lukasz.langa.pl/">lukasz.langa.pl/</a></div>
+        <div class="twitter"><a href="http://twitter.com/llanga"><span>@llanga</span></a></div>
+        <hr />
+        <p>Łukasz Langa is a rookie father and husband based in Poznań, Poland. In his free time he's using Python at Grupa Allegro and improving CPython as a member of its core team. Łukasz is a perfectionist, big fan of readable and testable code, building stuff is his thing since the first box of Legos.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Marek Jelen" src="marek_jelen.png"/></div>
-    	<h2>Marek Jelen</h2>
-    	<h3>Ruby Enthusiast</h3>
-    	<div class="web"><a href="https://github.com/marekjelen">github.com/marekjelen</a></div>
-    	<div class="twitter"><a href="http://twitter.com/marek_jelen"><span>@marekjelen</span></a></div>
-    	<hr />
-    	<p>Student, Ruby enthusiast and BRUG <a href="http://www.brug.cz">Brno Ruby User Group</a> founder. Marek is currently working as a Ruby lecturer at Masaryk university and as an independent consultant helping companies to find their way to Ruby. Meanwhile he is building new PAAS solution as his master thesis and in free time working on <a href="https://github.com/noderb">NodeRb project</a> and playing squash.</p>
+        <div class="img"><img alt="Marek Jelen" src="marek_jelen.png"/></div>
+        <h2>Marek Jelen</h2>
+        <h3>Ruby Enthusiast</h3>
+        <div class="web"><a href="https://github.com/marekjelen">github.com/marekjelen</a></div>
+        <div class="twitter"><a href="http://twitter.com/marek_jelen"><span>@marekjelen</span></a></div>
+        <hr />
+        <p>Student, Ruby enthusiast and BRUG <a href="http://www.brug.cz">Brno Ruby User Group</a> founder. Marek is currently working as a Ruby lecturer at Masaryk university and as an independent consultant helping companies to find their way to Ruby. Meanwhile he is building new PAAS solution as his master thesis and in free time working on <a href="https://github.com/noderb">NodeRb project</a> and playing squash.</p>
     </div>
     
     
-	</div>
-			
-	<div class="right">
+    </div>
+            
+    <div class="right">
 
-	<big>Tentative List for 2011</big>
+    <big>Tentative List for 2011</big>
     <div class="speaker">
-			<div class="img"><img alt="Xavier Noria" src="xavier_noria.png"/></div>
-			<h2>Xavier Noria</h2>
-			<h3>-</h3>
-			<div class="web"><a href="http://www.hashref.com/">www.hashref.com</a></div>
-			<div class="twitter"><a href="http://twitter.com/#!/fxn"><span>@fxn</span></a></div>
-			<hr />
-			<p>Xavier Noria was into Perl for some years, he is a <a href="http://search.cpan.org/~fxn/">CPAN author</a> and former leader of <a href="http://barcelona.pm.org/">Barcelona.pm</a>. Xavier has been around Ruby on Rails since 2005. He is a member of <a href="http://contributors.rubyonrails.org/contributors/xavier-noria/commits">the Ruby on Rails core team,</a>, and the author of <a href="http://contributors.rubyonrails.org/">Rails Contributors</a>. He was presented a <a href="http://advogato.org/person/fxn/diary/532.html">Ruby Hero Award in RailsConf 2010</a>, and is the president of the Spanish Ruby Users Group, which organized the <a href="http://www.euruko2009.org/index.html">European Ruby Conference 2009 (EuRuKo 2009)</a>, held in Barcelona. As a dynamic languages enthusiast Xavier also worked with Python for about a year, and is the author of the infamous <a href="http://search.cpan.org/~fxn/Acme-Pythonic/lib/Acme/Pythonic.pm">Acme::Pythonic</a>. A perfect fit for RuPy!
-			</p>
-		</div>
-		
-		<div class="speaker">
-			<div class="img"><img alt="Obie Fernandez" src="obie_fernandez.jpg"/></div>
-			<h2>Obie Fernandez</h2>
-			<h3>-</h3>
-			<div class="web"><a href="http://obiefernandez.com/">obiefernandez.com</a></div>
-			<div class="twitter"><a href="http://twitter.com/obie"><span>@obie</span></a></div>
-			<hr />
-			<p>Obie Fernandez is an old-time Ruby on Rails evangelist and noted member of the Rails community. He authored its "bible" The Rails Way (and later, The Rails 3 Way), and founded one of its leading consultancies, <a href="http://hashrocket.com/">Hashrocket</a>. He is currently CEO of a new startup, RightBonus, that aims to revolutionize the way companies do incentive compensation. He is also a popular blogger and leads the Addison Wesley Professional Ruby Series.
-			</p>
-		</div>
-		
-		<div class="speaker">
-    	<div class="img"><img alt="Ezra Zygmuntowicz" src="ezra_zygmuntowicz.jpg"/></div>
-    	<h2>Ezra Zygmuntowicz</h2>
-    	<h3>Senior Staff Engineer at VMware, Engine Yard Founder</h3>
-    	<div class="web"><a href="http://brainspl.at/">brainspl.at</a></div>
-    	<div class="twitter"><a href="http://twitter.com/ezmobius"><span>@ezmobius</span></a></div>
-    	<hr />
-    	<p>Ezra Zygmuntowicz, is a lead contributor to the <a href="http://www.merbivore.com/">Merb framework</a> and is a co-founder of <a href="http://www.engineyard.com/">EngineYard</a>, a scalable Rails hosting service. He is the author of the Deploying Rails Applications book for the <a href="http://pragprog.com/">Pragmatic Programmers</a> and has contributed many open source Ruby and Rails related projects. 
-    	</p>
-    </div>
-    
-    <div class="speaker">
-    	<div class="img"><img alt="Casper Fabricius" src="casper_fabricius.jpg"/></div>
+            <div class="img"><img alt="Xavier Noria" src="xavier_noria.png"/></div>
+            <h2>Xavier Noria</h2>
+            <h3>-</h3>
+            <div class="web"><a href="http://www.hashref.com/">www.hashref.com</a></div>
+            <div class="twitter"><a href="http://twitter.com/#!/fxn"><span>@fxn</span></a></div>
+            <hr />
+            <p>Xavier Noria was into Perl for some years, he is a <a href="http://search.cpan.org/~fxn/">CPAN author</a> and former leader of <a href="http://barcelona.pm.org/">Barcelona.pm</a>. Xavier has been around Ruby on Rails since 2005. He is a member of <a href="http://contributors.rubyonrails.org/contributors/xavier-noria/commits">the Ruby on Rails core team,</a>, and the author of <a href="http://contributors.rubyonrails.org/">Rails Contributors</a>. He was presented a <a href="http://advogato.org/person/fxn/diary/532.html">Ruby Hero Award in RailsConf 2010</a>, and is the president of the Spanish Ruby Users Group, which organized the <a href="http://www.euruko2009.org/index.html">European Ruby Conference 2009 (EuRuKo 2009)</a>, held in Barcelona. As a dynamic languages enthusiast Xavier also worked with Python for about a year, and is the author of the infamous <a href="http://search.cpan.org/~fxn/Acme-Pythonic/lib/Acme/Pythonic.pm">Acme::Pythonic</a>. A perfect fit for RuPy!
+            </p>
+        </div>
+        
+        <div class="speaker">
+            <div class="img"><img alt="Obie Fernandez" src="obie_fernandez.jpg"/></div>
+            <h2>Obie Fernandez</h2>
+            <h3>-</h3>
+            <div class="web"><a href="http://obiefernandez.com/">obiefernandez.com</a></div>
+            <div class="twitter"><a href="http://twitter.com/obie"><span>@obie</span></a></div>
+            <hr />
+            <p>Obie Fernandez is an old-time Ruby on Rails evangelist and noted member of the Rails community. He authored its "bible" The Rails Way (and later, The Rails 3 Way), and founded one of its leading consultancies, <a href="http://hashrocket.com/">Hashrocket</a>. He is currently CEO of a new startup, RightBonus, that aims to revolutionize the way companies do incentive compensation. He is also a popular blogger and leads the Addison Wesley Professional Ruby Series.
+            </p>
+        </div>
+        
+        <div class="speaker">
+        <div class="img"><img alt="Fred George" src="fred_george.jpg"/></div>
+        <h2>Fred George</h2>
+        <h3>ThoughtWorks</h3> 
+        <div class="web">-</a></div>
+        <div class="twitter"><a href="http://twitter.com/fgeorge52"><span>@fgeorge52</span></a></div>
+        <hr />
+        <p>Fred George is a consultant with over 43 years experience in the industry including over twenty years doing object programming and over a dozen years doing Agile/XP. He counts at least 70 languages with which he has written code. A veteran of the IBM-Microsoft wars, Fred did early work in computer networking, LAN's, GUI's and objects for IBM. As an independent consultant from 1991-2003, he counted HP, Morgan-Stanley, American Express, IBM, and USAA among his clients. He gave the first Agile/XP experience report at OOPSLA in 1999 about an embedded system done in Java, and has mentored many clients in use of objects in Java under an XP process. He has shared the stage at JavaOne with Martin Fowler, acting as his foil, and assisted in XP Immersion sessions with Kent Beck, Ron Jeffries, and Robert Martin. Fred spent a year as a visiting lecturer at N.C. State University teaching Java programming to over 800 undergraduates, with a generous dose of object design, patterns, and XP practices thrown in. Fred joined ThoughtWorks in 2003, delivering yet more projects using agile processes. He has worked with clients in four countries since then, including a ten-month assignment in India (where he founded ThoughtWorks University), four months of projects in China, and a post in the London office. In 2007, he joined the London Internet advertising firm, Forward, bringing Agile practices to all aspects of the business. He has been writing about the post-agile work at Forward under the moniker of Programmer Anarchy. He believes in objects, Lean processes, fun in programming, and the client's successes. He holds a bachelors degree from N. C. State University in Computer Science, and a masters degree from MIT in the Management of Technology. Oh, and he still writes code!
 
-    	<h2>Casper Fabricius</h2>
-    	<h3>Developer at Podio</h3>    	
-    	<div class="web"><a href="http://casperfabricius.com/">casperfabricius.com</a></div>
-    	<div class="twitter"><a href="http://twitter.com/fabricius"><span>@fabricius</span></a></div>    	
-    	<hr />
-    	<p>Developer at <a href="https://podio.com/">Podio</a> with 10 years experience in web development, the last 5 focusing on Ruby on Rails. Co-organizer of the Copenhagen Ruby Brigade. 
-    	</p>
+        </p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Christian Holm" src="christian_holm.jpg"/></div>
+        <div class="img"><img alt="Casper Fabricius" src="casper_fabricius.jpg"/></div>
 
-    	<h2>Christian Holm</h2>
-    	<h3>Lead Developer at Podio</h3>    	
-    	<div class="web"><a href="#">-</a></div>
-    	<div class="twitter"><a href="http://twitter.com/Hlmrn"><span>@Hlmrn</span></a></div>
-    	<hr />    	
-    	<p>Lead Developer at <a href="https://podio.com/">Podio</a>.
-    	</p>
+        <h2>Casper Fabricius</h2>
+        <h3>Developer at Podio</h3>     
+        <div class="web"><a href="http://casperfabricius.com/">casperfabricius.com</a></div>
+        <div class="twitter"><a href="http://twitter.com/fabricius"><span>@fabricius</span></a></div>       
+        <hr />
+        <p>Developer at <a href="https://podio.com/">Podio</a> with 10 years experience in web development, the last 5 focusing on Ruby on Rails. Co-organizer of the Copenhagen Ruby Brigade. 
+        </p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Łukasz Piestrzeniewicz" src="lukasz_piestrzeniewicz.jpg"/></div>
-    	<h2>Łukasz Piestrzeniewicz</h2>
-    	<h3>CEO at Ragnarson</h3>
-    	<div class="web"><a href="http://blog.ragnarson.com/">blog.ragnarson.com</a></div>
-    	<div class="twitter"><a href="http://twitter.com/bragiragnarson"><span>@bragiragnarson</span></a></div>
-    	<hr />
-    	<p>Łukasz Piestrzeniewicz is a scalability expert, Ruby on Rails developer, owner of <a href="http://ragnarson.com/">Ragnarson</a> and founder of <a href="http://www.winniecloud.com">Winnie Cloud</a>. He is a fan of highly scalable deployments and technologies supporting such approach: RESTful and shared-nothing architectures.</p>
+        <div class="img"><img alt="Christian Holm" src="christian_holm.jpg"/></div>
+
+        <h2>Christian Holm</h2>
+        <h3>Lead Developer at Podio</h3>        
+        <div class="web"><a href="#">-</a></div>
+        <div class="twitter"><a href="http://twitter.com/Hlmrn"><span>@Hlmrn</span></a></div>
+        <hr />      
+        <p>Lead Developer at <a href="https://podio.com/">Podio</a>.
+        </p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Honza Král" src="honza_kral.jpg"/></div>
-    	<h2>Honza Král</h2>
-    	<h3>Django Core Commiter</h3>
-    	<div class="web"><a href="#">-</a></div>
-    	<div class="twitter"><a href="http://twitter.com/honzakral"><span>@honzakral</span></a></div>
-    	<hr />
-    	<p>Honza works for <a href="http://www.whiskeymedia.com/">Whiskey Media</a> and has been using Django since the magic-removal branch and last year he became core committer. His background is in Data Warehousing and he still prefers to stay buried in the backend code dealing with data and infrastructure problems and fears the browser and related technologies.</p>
+        <div class="img"><img alt="Łukasz Piestrzeniewicz" src="lukasz_piestrzeniewicz.jpg"/></div>
+        <h2>Łukasz Piestrzeniewicz</h2>
+        <h3>CEO at Ragnarson</h3>
+        <div class="web"><a href="http://blog.ragnarson.com/">blog.ragnarson.com</a></div>
+        <div class="twitter"><a href="http://twitter.com/bragiragnarson"><span>@bragiragnarson</span></a></div>
+        <hr />
+        <p>Łukasz Piestrzeniewicz is a scalability expert, Ruby on Rails developer, owner of <a href="http://ragnarson.com/">Ragnarson</a> and founder of <a href="http://www.winniecloud.com">Winnie Cloud</a>. He is a fan of highly scalable deployments and technologies supporting such approach: RESTful and shared-nothing architectures.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Julian Fischer" src="julian_fischer.jpg"/></div>
-    	<h2>Julian Fischer</h2>
-    	<h3>CEO of Avarteq GmbH</h3>
-    	<div class="web"><a href="#">-</a></div>
-    	<div class="twitter"><a href="http://twitter.com/railshoster"><span>@railshoster</span></a></div>
-    	<hr />
-    	<p>Julian Fischer, CEO of Avarteq GmbH and associate lecturer at the University of Applied Sciences HTWdS in Saarbrücken, Germany, is delivering the lecture, Ruby on Rails. His main focus is about developing architectures for scalable and distributed web applications as well as the creation of hostings infrastructures such as <a href="http://railshoster.de">RailsHoster.de</a> and <a href="http://enterprise-rails.com">Enterprise-Rails.com</a>.</p>
+        <div class="img"><img alt="Honza Král" src="honza_kral.jpg"/></div>
+        <h2>Honza Král</h2>
+        <h3>Django Core Commiter</h3>
+        <div class="web"><a href="#">-</a></div>
+        <div class="twitter"><a href="http://twitter.com/honzakral"><span>@honzakral</span></a></div>
+        <hr />
+        <p>Honza works for <a href="http://www.whiskeymedia.com/">Whiskey Media</a> and has been using Django since the magic-removal branch and last year he became core committer. His background is in Data Warehousing and he still prefers to stay buried in the backend code dealing with data and infrastructure problems and fears the browser and related technologies.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Sven Fuchs" src="sven_fuchs.jpg"/></div>
-    	<h2>Sven Fuchs</h2>
-    	<h3>-</h3>
-    	<div class="web"><a href="http://svenfuchs.com">svenfuchs.com</a></div>
-    	<div class="twitter"><a href="http://twitter.com/svenfuchs"><span>@svenfuchs</span></a></div>
-    	<hr />
-    	<p>Sven Fuchs is an experienced software developer and active open source contributor currently based in Berlin, Germany. He is well known among the Rails community members for leading the I18n project, a gem shipped with Rails to cover internationalization needings. He is well known to be to be one of the core members of the Travis CI development team.</p>
+        <div class="img"><img alt="Julian Fischer" src="julian_fischer.jpg"/></div>
+        <h2>Julian Fischer</h2>
+        <h3>CEO of Avarteq GmbH</h3>
+        <div class="web"><a href="#">-</a></div>
+        <div class="twitter"><a href="http://twitter.com/railshoster"><span>@railshoster</span></a></div>
+        <hr />
+        <p>Julian Fischer, CEO of Avarteq GmbH and associate lecturer at the University of Applied Sciences HTWdS in Saarbrücken, Germany, is delivering the lecture, Ruby on Rails. His main focus is about developing architectures for scalable and distributed web applications as well as the creation of hostings infrastructures such as <a href="http://railshoster.de">RailsHoster.de</a> and <a href="http://enterprise-rails.com">Enterprise-Rails.com</a>.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Paweł Dolega" src="pawel_dolega.jpg"/></div>
-    	<h2>Paweł Dolega</h2>
-    	<h3>-</h3>
-    	<div class="web"><a href="#">-</a></div>
-    	<div class="twitter"><a href="http://twitter.com/pdolega"><span>@pdolega</span></a></div>
-    	<hr />
-    	<p>A graduate of the Silesian University of Technology. Mature developer and team leader who gained over 6 years of professional experience at companies like IBM, Sygnity, or Softbank. He is an advocate of lightweight methodologies and continuous refactoring. He favors human potential and skills over tools and processes.</p>
+        <div class="img"><img alt="Sven Fuchs" src="sven_fuchs.jpg"/></div>
+        <h2>Sven Fuchs</h2>
+        <h3>-</h3>
+        <div class="web"><a href="http://svenfuchs.com">svenfuchs.com</a></div>
+        <div class="twitter"><a href="http://twitter.com/svenfuchs"><span>@svenfuchs</span></a></div>
+        <hr />
+        <p>Sven Fuchs is an experienced software developer and active open source contributor currently based in Berlin, Germany. He is well known among the Rails community members for leading the I18n project, a gem shipped with Rails to cover internationalization needings. He is well known to be to be one of the core members of the Travis CI development team.</p>
     </div>
     
     <div class="speaker">
-    	<div class="img"><img alt="Ivan Necas" src="ivan_necas.jpg"/></div>
-    	<h2>Ivan Necas</h2>
-    	<h3>Engineer at Red Hat</h3>
-    	<div class="web"><a href="https://github.com/iNecas">github.com/iNecas</a></div>
-    	<div class="twitter"><a href="http://twitter.com/inecas"><span>@inecas</span></a></div>
-    	<hr />
-    	<p>Ivan is currently working as a SW Engineer at Red Hat in Brno, Czech Republic, with 3 years experience as a happy developer of intranet apps using Ruby and RubyOnRails. He is also founding member of <a href="http://brug.cz/">BRUG (Brno Ruby User Group)</a>, trying to bring Ruby to more people.</p>
+        <div class="img"><img alt="Paweł Dolega" src="pawel_dolega.jpg"/></div>
+        <h2>Paweł Dolega</h2>
+        <h3>-</h3>
+        <div class="web"><a href="#">-</a></div>
+        <div class="twitter"><a href="http://twitter.com/pdolega"><span>@pdolega</span></a></div>
+        <hr />
+        <p>A graduate of the Silesian University of Technology. Mature developer and team leader who gained over 6 years of professional experience at companies like IBM, Sygnity, or Softbank. He is an advocate of lightweight methodologies and continuous refactoring. He favors human potential and skills over tools and processes.</p>
+    </div>
+    
+    <div class="speaker">
+        <div class="img"><img alt="Ivan Necas" src="ivan_necas.jpg"/></div>
+        <h2>Ivan Necas</h2>
+        <h3>Engineer at Red Hat</h3>
+        <div class="web"><a href="https://github.com/iNecas">github.com/iNecas</a></div>
+        <div class="twitter"><a href="http://twitter.com/inecas"><span>@inecas</span></a></div>
+        <hr />
+        <p>Ivan is currently working as a SW Engineer at Red Hat in Brno, Czech Republic, with 3 years experience as a happy developer of intranet apps using Ruby and RubyOnRails. He is also founding member of <a href="http://brug.cz/">BRUG (Brno Ruby User Group)</a>, trying to bring Ruby to more people.</p>
     </div>
     
     <div class="speaker">
@@ -398,158 +399,158 @@
       <hr />
       <p>I'm working as a Senior Software developer in Red Hat Czech. My work is primarely focused on maintaining and improving Apache Deltacloud API project. Since my work on Deltacloud I discover many cloud providers and different kinds of API's.</p>
     </div>
-		
-	</div>
-	<hr />			
-			
-		
-	</div>
-	</div>
-	
-	<div id="venue" class="slide">
-	<div class="inside">
-	
-		<div class="left poznan">
-		
-			<div class="map">
-			
-			<iframe width="440" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=pozna%C5%84+international+fair&amp;ie=UTF8&amp;hl=en&amp;hq=international+fair&amp;hnear=Pozna%C5%84,+Pozna%C5%84+County,+Greater+Poland+Voivodeship,+Poland&amp;vpsrc=6&amp;ll=52.40776,16.91577&amp;spn=0.018326,0.037766&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-			
-			</div>
-		
-		</div>
-		<div class="right poznan">
-					
-			<h2 class="no top margin">Poznań International Fair</h2>
-			<p>RuPy 11 will be held in Poznań International Fair.<br />
-			PIF is the largest trade fair organizer in Poland.<br />
-			It is located in the centre of the city opposite<br />
-			the main railway station - Poznań Główny. <br />
-			It is the 21st largest fair in the world,<br />
-			with about 50 trade events taking place<br />
-			on its area every year.</p>
-			
-			<h2>Poznań</h2>
-			<p>Poznań is Poland's fifth largest city. It is the historical<br />
-			capital of the Wielkopolska ("Greater Poland") region,<br />
-			and is currently the administrative capital<br />
-			of the province called Greater Poland Voivodeship.<br />
-			Poznań is an important centre of trade,<br />
-			industry, and education, and hosts regular<br />
-			international trade fairs. </p>
-		
-		
-		</div>
-		
-		</div></div>
-		
-		<div class="travel info slide">
-		<div class="inside">
-		<div class="border">
-				
-			<div class="column left">
-	
-				<h3>By Train</h3>
-				<p>Eurocity trains from Berlin take three hours as does the train journey from Warsaw. There are convenient rail connections with all major towns and cities in Poland.</p>
-				
-			</div>
+        
+    </div>
+    <hr />          
+            
+        
+    </div>
+    </div>
+    
+    <div id="venue" class="slide">
+    <div class="inside">
+    
+        <div class="left poznan">
+        
+            <div class="map">
+            
+            <iframe width="440" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=pozna%C5%84+international+fair&amp;ie=UTF8&amp;hl=en&amp;hq=international+fair&amp;hnear=Pozna%C5%84,+Pozna%C5%84+County,+Greater+Poland+Voivodeship,+Poland&amp;vpsrc=6&amp;ll=52.40776,16.91577&amp;spn=0.018326,0.037766&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+            
+            </div>
+        
+        </div>
+        <div class="right poznan">
+                    
+            <h2 class="no top margin">Poznań International Fair</h2>
+            <p>RuPy 11 will be held in Poznań International Fair.<br />
+            PIF is the largest trade fair organizer in Poland.<br />
+            It is located in the centre of the city opposite<br />
+            the main railway station - Poznań Główny. <br />
+            It is the 21st largest fair in the world,<br />
+            with about 50 trade events taking place<br />
+            on its area every year.</p>
+            
+            <h2>Poznań</h2>
+            <p>Poznań is Poland's fifth largest city. It is the historical<br />
+            capital of the Wielkopolska ("Greater Poland") region,<br />
+            and is currently the administrative capital<br />
+            of the province called Greater Poland Voivodeship.<br />
+            Poznań is an important centre of trade,<br />
+            industry, and education, and hosts regular<br />
+            international trade fairs. </p>
+        
+        
+        </div>
+        
+        </div></div>
+        
+        <div class="travel info slide">
+        <div class="inside">
+        <div class="border">
+                
+            <div class="column left">
+    
+                <h3>By Train</h3>
+                <p>Eurocity trains from Berlin take three hours as does the train journey from Warsaw. There are convenient rail connections with all major towns and cities in Poland.</p>
+                
+            </div>
 
-			<div class="column middle">
+            <div class="column middle">
 
-				<h3>By plane</h3>
-				<p>The airport is 7 km away from the city centre, but still within the city limits. The city centre can be reached from the airport by bus line No. 78 (leave the bus at "Rondo Kaponiera" stop, which is in the city centre near hotel Mercure), or by line 59 (you have to get on the bus at a stop accross the street in front of the airport (approx. 50m). </p>
+                <h3>By plane</h3>
+                <p>The airport is 7 km away from the city centre, but still within the city limits. The city centre can be reached from the airport by bus line No. 78 (leave the bus at "Rondo Kaponiera" stop, which is in the city centre near hotel Mercure), or by line 59 (you have to get on the bus at a stop accross the street in front of the airport (approx. 50m). </p>
 
-			</div>
+            </div>
 
-			<div class="column right">
+            <div class="column right">
 
-				<h3>By car</h3>
-				<p>Poznan has convenient road connections with major Polish cities, and with the Western Europe. The nearest places to cross the Polish-German border are: Kostrzyn-Kietz, Slubice-Frankfurt/O., Swiecko-Frankfurt/O. You can use A2/E30 road to get to Poznan from Slubice and Swiecko, or a paid Autostrada Wielkopolska (which is under construction 2005).</p>
+                <h3>By car</h3>
+                <p>Poznan has convenient road connections with major Polish cities, and with the Western Europe. The nearest places to cross the Polish-German border are: Kostrzyn-Kietz, Slubice-Frankfurt/O., Swiecko-Frankfurt/O. You can use A2/E30 road to get to Poznan from Slubice and Swiecko, or a paid Autostrada Wielkopolska (which is under construction 2005).</p>
 
-			</div>
-			<hr />	
+            </div>
+            <hr />  
 
-		</div>
-		<hr />	
-	
-	</div> <!-- inside -->
-	</div>
-		
+        </div>
+        <hr />  
+    
+    </div> <!-- inside -->
+    </div>
+        
 
-	
-		<div id="accomodation" class="slide">
-		<div class="inside">
-		
-		<div class="border">
-		  <br/>
+    
+        <div id="accomodation" class="slide">
+        <div class="inside">
+        
+        <div class="border">
+          <br/>
 
 
-			<div class="column left">
-	
-				<h3>Hill Hostel</h3>
-				<p>Hill Hostel is situated at Zamkowa Street in the city centre, next to the Old Market where you can experience an amazing atmosphere of an incredible place. Hostel is located in a villa built in 1890. The building formerly housed a registry office. Today, completely renovated mansion is in full at our guests’ disposal. Hill Hostel has its own patio devoted only to the hostel guests. </p>
-				<p><a href="http://www.hillhostel.pl/hill-hostel-poznan-home1.html">www.hillhostel.pl</a></p>
-			  <p><strong>Price:</strong> cheap</p>				
-				
-			</div>
+            <div class="column left">
+    
+                <h3>Hill Hostel</h3>
+                <p>Hill Hostel is situated at Zamkowa Street in the city centre, next to the Old Market where you can experience an amazing atmosphere of an incredible place. Hostel is located in a villa built in 1890. The building formerly housed a registry office. Today, completely renovated mansion is in full at our guests’ disposal. Hill Hostel has its own patio devoted only to the hostel guests. </p>
+                <p><a href="http://www.hillhostel.pl/hill-hostel-poznan-home1.html">www.hillhostel.pl</a></p>
+              <p><strong>Price:</strong> cheap</p>              
+                
+            </div>
 
-			<div class="column middle">
+            <div class="column middle">
 
-				<h3>Fusion Hostel</h3>
-				<p>Fusion Hostel is a place for people looking for high standards and reasonable prices. Our design is unique and modern. Every detail reflects the spirit and the atmosphere of this place. In most of the rooms, you will find bunk beds. Our bathrooms and toilets are of high standards. We have refurbished 4th and 7th floor in an office building. The building is equipped with comfortable lifts, which will take you straight to our reception desk. Every room has a breathtaking view over the city centre. You can see the tower of the Imperial Castle, the Town Hall and the main street of Poznan.</p>
-			  <p><a href="http://www.fusionhostel.pl/">www.fusionhostel.pl/</a></p>
+                <h3>Fusion Hostel</h3>
+                <p>Fusion Hostel is a place for people looking for high standards and reasonable prices. Our design is unique and modern. Every detail reflects the spirit and the atmosphere of this place. In most of the rooms, you will find bunk beds. Our bathrooms and toilets are of high standards. We have refurbished 4th and 7th floor in an office building. The building is equipped with comfortable lifts, which will take you straight to our reception desk. Every room has a breathtaking view over the city centre. You can see the tower of the Imperial Castle, the Town Hall and the main street of Poznan.</p>
+              <p><a href="http://www.fusionhostel.pl/">www.fusionhostel.pl/</a></p>
         <p><strong>Price:</strong> standard</p>
 
-			</div>
+            </div>
 
-			<div class="column right">
-				<h3>Hotel Włoski</h3>
-				<p>Located in central Poznań, Hotel Włoski Business Centrum Poznań offers elegant air conditioned rooms with free Wi-Fi and satellite LCD TV. Poznań International Fair is just one mile away.Hotel Włoski Business Centrum Poznań is situated one mile from the Old Town Square with its many restaurants, cafés and bars. The city’s main train station, Poznań Główny, is one mile away.</p>
-			  <p><a href="http://hotelwloski.pl/en/">hotelwloski.pl/en/</a></p>
-			  <p><strong>Price:</strong> more expensive</p>
+            <div class="column right">
+                <h3>Hotel Włoski</h3>
+                <p>Located in central Poznań, Hotel Włoski Business Centrum Poznań offers elegant air conditioned rooms with free Wi-Fi and satellite LCD TV. Poznań International Fair is just one mile away.Hotel Włoski Business Centrum Poznań is situated one mile from the Old Town Square with its many restaurants, cafés and bars. The city’s main train station, Poznań Główny, is one mile away.</p>
+              <p><a href="http://hotelwloski.pl/en/">hotelwloski.pl/en/</a></p>
+              <p><strong>Price:</strong> more expensive</p>
 
-			</div>
-		
-		</div>
-		<hr />	
-	
-	</div> <!-- inside -->
-	</div>
-	
-	<div class="slide" id="workshops">
-	<div class="inside">
-	
-		<div class="workshop">
-		
-			<div class="img"><img alt="Michał Czyż" src="michal_czyz.jpg"/></div>
-			<h3 class="person">Michał Czyż</h3>
-			<h5>from Selleo</h5>
-			<h2 class="title">Acceptance Testing using Ruby</h2>
-			<p class="teaser">This is going to be one day workshop, where you will learn how to write acceptance tests in efficient and practical way, in the context of Ruby On Rails framework (using tools like: rspec and capybara). During this course you will also learn about approaches that turn your acceptance tests into invaluable documentation, that includes information about your application's requirements and specification.</p>
-			<p><strong>Michał Czyż</strong> has been working professionally as a web developer and project manager since 2007, and from the very begining of his professional career, his choice is Ruby on Rails. He is one of the core members of SRUG - a local Ruby users group community, where he is known for evangelizing BDD and user-centered design practices. Michał is an author of the cucumber.fm - a web based tool supporting project management, used with great success in Selleo, where Michał currently works.</p>
-			<br/>
-			<br/>
-	  </div>
-	  
-	  <div class="workshop">
+            </div>
+        
+        </div>
+        <hr />  
+    
+    </div> <!-- inside -->
+    </div>
+    
+    <div class="slide" id="workshops">
+    <div class="inside">
+    
+        <div class="workshop">
+        
+            <div class="img"><img alt="Michał Czyż" src="michal_czyz.jpg"/></div>
+            <h3 class="person">Michał Czyż</h3>
+            <h5>from Selleo</h5>
+            <h2 class="title">Acceptance Testing using Ruby</h2>
+            <p class="teaser">This is going to be one day workshop, where you will learn how to write acceptance tests in efficient and practical way, in the context of Ruby On Rails framework (using tools like: rspec and capybara). During this course you will also learn about approaches that turn your acceptance tests into invaluable documentation, that includes information about your application's requirements and specification.</p>
+            <p><strong>Michał Czyż</strong> has been working professionally as a web developer and project manager since 2007, and from the very begining of his professional career, his choice is Ruby on Rails. He is one of the core members of SRUG - a local Ruby users group community, where he is known for evangelizing BDD and user-centered design practices. Michał is an author of the cucumber.fm - a web based tool supporting project management, used with great success in Selleo, where Michał currently works.</p>
+            <br/>
+            <br/>
+      </div>
+      
+      <div class="workshop">
       <div class="img"><img alt="Oleg Shpynov" src="oleg_shpynov.png"/></div>
-			<div class="img"><img alt="Dennis Ushakov" src="dennis_ushakov.jpg"/></div>
-			<h3 class="person">Dennis Ushakov &amp; Oleg Shpynov</h3>
-			<h5>from JetBrains</h5>
-			<h2 class="title">TBA</h2>
-			<p class="teaser">Community-driven topic selection for this workshop!</p>
-			<p><strong>Oleg Shpynov:</strong> is a senior software developer at JetBrains. His current work there is focused on RubyMine. His fields of interest include dynamic languages, type systems, language design and bioinformatics.</p>
-			<p><strong>Dennis Ushakov</strong> is a RubyMine project manager at JetBrains. His areas of professional interest include virtual machines design and managed runtimes in managed language implementation. His work at JetBrains is currently focused on Rails 3 and debugging support.</p>
-			<div class='clear'>&nbsp;</div>                  			
-	  </div>
-	  
-	  <div class="workshop">
-			<div class="img"><img alt="Kristian Rother" src="kristian_rother.png"/></div>
-			<h3 class="person">Kristian Rother</h3>
-			<h5>from Toastmasters</h5>
-			<h2 class="title">Geekspeak - Talking to an IT audience</h2>
-			<p class="teaser">You have passion and technical skills - what else do you need to pass on your knowledge during a conference, seminar, or tutorial so that your audience will be enticed? 
-			<p>Speaking is much like programming. Imagine someone who read a few Ruby/Python books and did the exercises could probably start implementing a program right away. However, would you want to hire that person as a programmer? Similarly someone who did a course on PowerPoint could start creating a presentation. But would you really want that person speak on your conference?</p>
+            <div class="img"><img alt="Dennis Ushakov" src="dennis_ushakov.jpg"/></div>
+            <h3 class="person">Dennis Ushakov &amp; Oleg Shpynov</h3>
+            <h5>from JetBrains</h5>
+            <h2 class="title">Ruby code analysis tools, "Fighting code smells"</h2>
+            <p class="teaser"></p>
+            <p><strong>Oleg Shpynov:</strong> is a senior software developer at JetBrains. His current work there is focused on RubyMine. His fields of interest include dynamic languages, type systems, language design and bioinformatics.</p>
+            <p><strong>Dennis Ushakov</strong> is a RubyMine project manager at JetBrains. His areas of professional interest include virtual machines design and managed runtimes in managed language implementation. His work at JetBrains is currently focused on Rails 3 and debugging support.</p>
+            <div class='clear'>&nbsp;</div>                             
+      </div>
+      
+      <div class="workshop">
+            <div class="img"><img alt="Kristian Rother" src="kristian_rother.png"/></div>
+            <h3 class="person">Kristian Rother</h3>
+            <h5>from Toastmasters</h5>
+            <h2 class="title">Geekspeak - Talking to an IT audience</h2>
+            <p class="teaser">You have passion and technical skills - what else do you need to pass on your knowledge during a conference, seminar, or tutorial so that your audience will be enticed? 
+            <p>Speaking is much like programming. Imagine someone who read a few Ruby/Python books and did the exercises could probably start implementing a program right away. However, would you want to hire that person as a programmer? Similarly someone who did a course on PowerPoint could start creating a presentation. But would you really want that person speak on your conference?</p>
 
       <p>In brief, speaking just like programming is a craft that requires constant learning and self-improvement.In the Geekspeak workshop, RuPy attendants can practice three speaking skills:</p>
       <ol>
@@ -560,39 +561,39 @@
       <p>The workshop will be moderated by two Toastmasters members who are IT people themselves.</p>
 
       <p>Toastmasters is a non-profit organization that has been training speakers and leaders for the past 85 years. There are more than 250,000 members in clubs worldwide. In Poznan, a Polish and an English club are having training sessions each week.</p>
-	  </div>
-	  
-	  <div class="workshop">
-			<div class="img"><img alt="Julian Fischer" src="julian_fischer.jpg"/></div>
-			<h3 class="person">Julian Fischer</h3>
-			<h5>from Avarteq</h5>
-			<h2 class="title">Enterprise hosting, server management with chef and possibly deployments with capistrano.</h2>
-			<p class="teaser">TBA</p>
-			<br/>
-			<br/>
-			<br/>
-	  </div>
-	</div>
-	
-	
-	
-	
-	<div id="footer">
-	
-		<a href="#top" id="top">GO TO TOP</a>
+      </div>
+      
+      <div class="workshop">
+            <div class="img"><img alt="Julian Fischer" src="julian_fischer.jpg"/></div>
+            <h3 class="person">Julian Fischer</h3>
+            <h5>from Avarteq</h5>
+            <h2 class="title">Enterprise hosting, server management with chef and possibly deployments with capistrano.</h2>
+            <p class="teaser">TBA</p>
+            <br/>
+            <br/>
+            <br/>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div id="footer">
+    
+        <a href="#top" id="top">GO TO TOP</a>
 
     <div id="true">
 
-    	    Led by <a href="http://twitter.com/zaiste">@zaiste</a> and organized by <a href="http://twitter.com/ptynecki">@ptynecki</a>, <a href="http://twitter.com/theadam">@theadam</a>, <a href="http://twitter.com/sharnik">@sharnik</a>, <a href="http://twitter.com/pszlagowski">@pszlagowski</a>, <a href="http://twitter.com/kstarski">@kstarski</a>, <a href="http://twitter.com/k_rother">@k_rother</a>, <a href="http://twitter.com/alovak">@alovak</a>, <a href="http://twitter.com/mlitwiniuk">@mlitwiniuk</a>, <a href="http://twitter.com/marek_jelen">@marek_jelen</a> 
-    	    <br/>
-    	    <br/>
-    	    <br/>
-    	    CONTACT US: info at rupy.eu
-    	  </div>
-	
-		<a href="http://www.true.pl" id="true2">DESIGN 100% by true</a>
-		
-	</div>
+            Led by <a href="http://twitter.com/zaiste">@zaiste</a> and organized by <a href="http://twitter.com/ptynecki">@ptynecki</a>, <a href="http://twitter.com/theadam">@theadam</a>, <a href="http://twitter.com/sharnik">@sharnik</a>, <a href="http://twitter.com/pszlagowski">@pszlagowski</a>, <a href="http://twitter.com/kstarski">@kstarski</a>, <a href="http://twitter.com/k_rother">@k_rother</a>, <a href="http://twitter.com/alovak">@alovak</a>, <a href="http://twitter.com/mlitwiniuk">@mlitwiniuk</a>, <a href="http://twitter.com/marek_jelen">@marek_jelen</a> 
+            <br/>
+            <br/>
+            <br/>
+            CONTACT US: info at rupy.eu
+          </div>
+    
+        <a href="http://www.true.pl" id="true2">DESIGN 100% by true</a>
+        
+    </div>
 
 </div>
 
