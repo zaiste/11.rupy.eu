@@ -106,15 +106,16 @@ hr {
 	width: 190px;
 	left: 625px;
 	top: 70px;
-	background: #aa9067;
+	background: #fff;
 	text-align: center;
 	padding: 5px;
+	text-decoration: none;	
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #8f0000;
 	line-height: 20px;
 	font-size: 16px;
-	text-decoration: line-through;
+	/* text-decoration: line-through; */
 }
 
 #home #register {
@@ -206,6 +207,7 @@ hr {
 	top: -430px;
 	width: 270px;
 	padding-bottom: 50px;
+	z-index: 999;
 }
 
 #about #sponsors h4 {
@@ -259,7 +261,7 @@ hr {
 #speakers big {
 	display: block;
 	font-weight: 600;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 	margin-top: -50px;
 }
 #speakers .speaker {
@@ -417,9 +419,13 @@ hr {
 	width: 320px;
 }
 #accomodation .column.middle {
-	margin: 10px 70px;
+	margin: 0px 70px;
 }
 
+#accomodation h3 {
+	color: #3E641A;
+	text-transform: uppercase;
+}
 
 #workshops .inside {
 	background: url(workshops.png) no-repeat center 50px;
@@ -431,7 +437,11 @@ hr {
 	background: #fff;
 	padding: 30px;
 	margin-bottom: 10px;
-	
+}
+
+.clear {
+	clear: both;
+	font-size: 1px;
 }
 
 #workshops .workshop .img {
@@ -439,7 +449,9 @@ hr {
 	width: 150px;
 	height: 150px;
 	padding: 10px;
+	margin-bottom: 10px;
 	float: left;
+	clear: both;
 }
 #workshops .workshop h3 {
 	margin: 0;
